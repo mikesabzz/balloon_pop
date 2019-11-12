@@ -1,0 +1,22 @@
+html, body {
+    background-image: url(img/background.png);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    image-rendering: crisp-edges;
+    image-rendering: optimizeSpeed;
+}
+.balloon {
+    background-image: url(img/balloon.png);
+    background-position: 377px 8px;
+    width: 86px;
+    height: 100px;
+    position: absolute;
+    transition: top 2s, left 2s;
+}
+.balloon.pop {
+    background-position: 257px -85px;
+}
